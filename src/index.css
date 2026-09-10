@@ -1,0 +1,24 @@
+:root {
+  --spring-teal: #0E7C86;
+  --deep-spring: #06414C;
+  --aqua: #12A5B0;
+  --warm-sand: #D98324;
+  --ink: #0B2027;
+  --slate: #5B6B72;
+  --mist: #F4F7F8;
+  --surface: #FFFFFF;
+  --success: #2E7D5B;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--mist);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { min-height: 100vh; }
